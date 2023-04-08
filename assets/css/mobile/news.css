@@ -1,0 +1,285 @@
+.news {
+    padding: 2rem;
+}
+
+.news__tittle-mobile {
+
+}
+
+.news__tag {
+    width: 4rem;
+    margin: auto;
+    background: #f70f68;
+    padding: 0.35rem;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 16px;
+}
+
+.news__text-tag {
+    font-size: 0.6rem;
+    font-weight: 200;
+}
+
+.news__tittle {
+    padding: 1rem 0;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.7rem;
+    text-align: center;
+}
+
+.news__text {
+    color: #838181;
+    font-weight: 200;
+    text-indent: 1rem;
+    padding: 0 0 1rem;
+    letter-spacing: 0.1px;
+    line-height: 1.3rem;
+    text-align: ;
+}
+
+.news__articles-imgs {
+
+}
+
+.news__img-articles-primary {
+    margin-top: 0.8rem;
+    width: 22rem;
+    height: 20.2rem;
+    border-radius: 16px;
+}
+
+.news__arrows-article {
+    display: none;
+}
+
+.news__img-articles-secondary {
+    margin-top: 1.5rem;
+    width: 22rem;
+    height: 14.4rem;
+    border-radius: 16px;
+}
+
+.news__tag-btn-first-article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    position: relative;
+    top: -20.4rem;
+}
+
+.news__tag-btn-second-article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    position: relative;
+    top: -14.6rem;  
+}
+
+.news__tittles-articles {
+    position: relative;
+    top: -11.7rem;
+    color: #ffffff;
+    padding: 1rem;
+}
+
+.news__tag-articles-img {
+    font-size: 0.6rem;
+    font-weight: 200;
+    padding: 0.4rem 0.7rem;
+    border: none;
+    border-radius: 16px;
+    background: rgba(32, 27, 27, 0.6);
+    color: #ffffff;
+}
+
+.news__btn-articles-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 0.7rem;
+    font-weight: 200;
+    padding: 0.3rem 0.9rem;
+    border: none;
+    border-radius: 16px;
+    background: #f70f68;
+    color: #ffffff;
+}
+
+.news__btn-img {
+    width: 0.9rem;
+    margin-right: 0.4rem;
+}
+
+.news__tittle-primary {
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.3rem;
+}
+
+.news__bullet-point {
+    color: #f70f68;
+    font-size: 1rem;
+}
+
+.news__tittle-secondary {
+    font-size: 0.7rem;
+    font-weight: 200;
+    margin-bottom: 0.7rem;
+}
+
+.news__slides-content {
+    text-align: center;
+    margin-top: -10rem;
+}
+
+.news__articles-text-first {
+    display: none;
+}
+
+.news__advertising-first {
+
+}
+
+.news__advertising-first-img {
+    width: 22rem;
+    height: 18.4rem;
+    margin-top: -9.3rem;
+    margin-bottom: 1.5rem;
+}
+
+.news__advertisings-content {
+    display: none;
+}
+
+.news__articles-content-secondary {
+
+}
+
+.news__articles-img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 0 1.5rem;
+}
+
+.news__articles-small-img {
+    width: 7rem;
+    height: 6rem;
+    border-radius: 16px;
+    margin-right: 1rem;
+}
+
+.news__tittle-small-article {
+    font-size: 0.6rem;
+    font-weight: 600;
+    width: 4rem;
+    padding: 0.3rem 0.6rem;
+    text-align: center;
+    color: #f70f68;
+    background: #ffffff;
+    border: 1px solid #f70f68;
+    border-radius: 16pc;
+    margin-bottom: 1rem;
+}
+
+.news__text-article {
+    font-weight: 200;
+    line-height: 1rem;
+}
+
+.news__articles-text-last {
+    display: none;
+}
+
+.news__big-advertising-content {
+    display: none;
+}
+
+.news__info-articles {
+
+}
+
+.news__sport-img-content {
+    text-align: center;
+}
+
+.news__sport-img {
+    width: 12rem;
+    height: 10rem;
+}
+
+/* ESTA CLASE VA PABAJO */
+.news__img-articles-tertiary {
+    margin-top: 0.5rem;
+    width: 22rem;
+    height: 15.3rem;
+    border-radius: 16px;   
+}
+
+.news__tag-btn-third-article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    position: relative;
+    top: -15.2rem;  
+} 
+
+.news__tag-sport-article {
+    font-size: 0.6rem;
+    font-weight: 200;
+    padding: 0.2rem 0.5rem;
+    border: 1px solid #ffffff;
+    border-radius: 16px;
+    background: rgba(32, 27, 27, 0.6);
+    color: #ffffff;
+}
+
+.news__btn-sport-article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 0.7rem;
+    font-weight: 200;
+    padding: 0.17rem 0.7rem;
+    border: none;
+    border-radius: 16px;
+    background: #f70f68;
+    color: #ffffff;
+}
+
+.news__sport-btn-img {
+    width: 0.9rem;
+    margin-right: 0.3rem;
+}
+
+.news__sport-tittles {
+    position: relative;
+    top: -10.4rem;
+    color: #ffffff;
+    padding: 1rem;
+}
+
+/* MESSI */
+
+/* SLIDES */
+.news__slides-sport-content {
+    text-align: center;
+    margin-top: -9rem;
+    margin-bottom: -2rem;
+} 
+
+.news__slides-sport-article {
+    
+}

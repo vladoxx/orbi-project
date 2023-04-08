@@ -1,0 +1,133 @@
+.tv {
+    padding: 1.7rem;
+    background: #1a1919;
+    color: #ffffff;
+    margin-top: 1.5rem;
+}
+
+.tv__head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tv__logo-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.tv__logo-img {
+    width: 3.3rem;
+    height: 3.3rem;
+    margin-right: 0.6rem;
+}
+
+#tv__first-logo-text {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+#tv__second-logo-text {
+    font-weight: lighter;
+    color: #f70f68;
+}
+
+.tv__button-watch-type {
+    margin-top: 1.4rem;
+}
+
+.tv__button-videos {
+    color: #ffffff;
+    background: #f70f68;
+    font-size: 0.75rem;
+    font-weight: 400;
+    padding: 0.4rem 0.7rem;
+    border: none;
+    border-radius: 16px;
+    margin: 0 0 1.3rem;
+}
+
+.tv__button-shorts {
+    color: #867a7a;
+    background: #1a1919;
+    font-size: 0.71rem;
+    font-weight: 400;
+    padding: 0.48rem 0.8rem;
+    border: 1px solid #867a7a;
+    border-radius: 16px;
+    margin-left: 0.4rem;
+}
+
+.tv__arrow-buttons-small-screen {
+     
+}
+
+.tv__arrow-buttons {
+    width: 2.3rem;
+    height: 2.3rem;
+    background: #ffffff;
+    border-radius: 100%;
+    font-size: 1.4rem;
+}
+
+.tv__arrow-buttons-big-screen {
+    display: none;
+}
+
+.tv__box-videos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: auto;
+}
+
+.tv__videos-content {
+    margin-right: 0.8rem;
+}
+
+.tv__videos-imgs{
+    width: 22rem;
+    height: 12.5rem;
+    border-radius: 16px;
+}
+
+.tv__text-videos {
+    margin-top: 1rem;
+    font-weight: 300;
+    line-height: 1.3rem;
+}
+
+.tv__slices-content {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#tv__slice-active {
+    font-size: 2.4rem;
+    margin: 0 0.2rem 0.1rem; 
+}
+
+.tv__social-media-content {
+    margin: 2.5rem 0 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.tv__youtube-canal {
+    margin-right: 0.6rem;
+}
+
+.tv__youtube-logo {
+    width: 2rem;
+}
+
+.tv__youtube-link-canal {
+    font-size: 0.8rem;
+    font-weight: 300;
+}

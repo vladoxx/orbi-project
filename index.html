@@ -1,0 +1,1339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link href="https://fonts.cdnfonts.com/css/pacaembu-trial" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Orbi Project</title>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="header__content">
+            <div class="header__logo">
+                <img class="header__logo-image" src="https://orbi.band.uol.com.br/themes/default/assets/img/svg/logo.svg"
+                    alt="Menu Icon">
+            </div>
+
+            <div class="header__button-icon">
+                <button class="header__button" href=""><span class="header__button-span"><img
+                            src="https://orbi.band.uol.com.br/themes/default/assets/img/svg/livro.svg"
+                            alt="Book-Button">Jornal</span></button>
+
+                            <!-- ESTO ES PA VER SI LE METO UN MENUCILLO -->
+                <!-- <input class="header__input-menu" type="checkbox" id="menu-bar" id="">
+                    <label class="header__label_menu-icon" for="menu-bar"></label> -->
+                <img class="header__icon" src="https://cdn-icons-png.flaticon.com/512/7236/7236066.png" alt="Menu Icon">
+
+                <!-- ESTO ES PA VER SI LE METO UN MENUCILLO -->
+
+                <!-- <nav class="header__nav">
+                    
+                        <li class="header__list">
+                            <li class="header__list-items">Home</li>
+                            <li class="header__list-items">Cultura</li>
+                            <li class="header__list-items">Entretenimento</li>
+                            <li class="header__list-items">Música</li>
+                            <li class="header__list-items">Cinema</li>
+                            <li class="header__list-items">Jornal</li>
+                            <li class="header__list-items">Agenda</li>
+                            <li class="header__list-items">TV</li>
+                            <li class="header__list-items">Cultura</li>
+                            <li class="header__list-items">Entretenimento</li>
+                            <li class="header__list-items">Música</li>
+                            <li class="header__list-items">Cinema</li>
+                        </ul>
+                    </nav> -->
+            </div>
+        </div>
+
+        <div class="header__shortcut">
+            <ul class="header__list">
+                <li class="header__list-items" class="fixed">Home</li>
+                <li class="header__list-items">Cultura</li>
+                <li class="header__list-items">Entretenimento</li>
+                <li class="header__list-items">Música</li>
+                <li class="header__list-items">Cinema</li>
+                <li class="header__list-items">Jornal</li>
+                <li class="header__list-items">Agenda</li>
+                <li class="header__list-items">TV</li>
+                <li class="header__list-items">Cultura</li>
+                <li class="header__list-items">Entretenimento</li>
+                <li class="header__list-items">Música</li>
+                <li class="header__list-items">Cinema</li>
+            </ul>
+        </div>
+
+        <!-- ESTE VA NONE PA TELA GRANDE -->
+        <aside class="header__advertising">
+            <img class="header__advertising-img" src="https://justiciacolectiva.org.ar/wp-content/uploads/2016/12/publicidad-difusi%C3%B3n.png" alt="Advertising">
+        </aside>
+
+        <!-- ESTE VA NONE PA TELA GRANDE -->
+        <div class="header__stories">
+            <div class="header__stories-content">
+                <img class="header__stories-image" src="https://th.bing.com/th/id/OIP.eh-bU5pEG7MGQB0xalFCeAHaFj?w=203&h=180&c=7&r=0&o=5&pid=1.7" alt="Stories">
+                <p class="header__text-stories">Anitta</p>
+            </div>
+
+            <div class="header__stories-content">
+                <img class="header__stories-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9u7_YIZtJBKdtzqiuo5-zFu_v_jA5KwwRtA&usqp=CAU" alt="Stories">
+                <p class="header__text-stories">Beyoncé</p>
+            </div>
+
+            <div class="header__stories-content">
+                <img class="header__stories-image" src="https://th.bing.com/th/id/OIP.O1lcUoUR6z5W2dguF4ULaAHaHa?w=206&h=205&c=7&r=0&o=5&pid=1.7" alt="Stories">
+                <p class="header__text-stories">Mario Bros</p>
+            </div>
+            <div class="header__stories-content">
+                <img class="header__stories-image" src="https://th.bing.com/th/id/OIP.eh-bU5pEG7MGQB0xalFCeAHaFj?w=203&h=180&c=7&r=0&o=5&pid=1.7" alt="Stories">
+                <p class="header__text-stories">Anitta</p>
+            </div>
+
+            <div class="header__stories-content">
+                <img class="header__stories-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9u7_YIZtJBKdtzqiuo5-zFu_v_jA5KwwRtA&usqp=CAU" alt="Stories">
+                <p class="header__text-stories">Beyoncé</p>
+            </div>
+        </div>
+
+        <div class="header__banner">
+
+            <img class="header__banner-image" src="https://th.bing.com/th/id/OIP.g-SauIlOGZamGOldVi4cngHaEK?w=328&h=184&c=7&r=0&o=5&pid=1.7" alt="Banner">
+
+            <div class="header__btn-banner">
+                <button class="header__btns" id="category-btn" type="button">CATEGORIA</button>
+                <button class="header__btns" id="share-btn" type="button"><img class="header__btn-icon" src="https://th.bing.com/th/id/OIP.RiSs0t_YUc7Rx2JhK8y0OAHaHa?w=176&h=180&c=7&r=0&o=5&pid=1.7" alt="Share Button">Compartilhe</button>
+            </div>
+
+            <div class="header__banner-text">
+                <h3 class="header__banner-tittle-secondary"><span class="header__bullet-point">●</span> ORA, BOLAS!</h3>
+                <h1 class="header__banner-tittle-primary">Copa, Seleção e um torcedor reformado</h1>
+            </div>
+
+            <div class="header__banner-content-articles">
+                <article class="header__banner-articles">
+                    <h3 class="header__banner-tittle-articles">ORA, BOLAS!</h3>
+                    <p class="header__banner-text-articles">Lorem ipsum dolor sit amet consectetur adipisicing elit!</p>
+                </article>
+
+                <article class="header__banner-articles">
+                    <h3 class="header__banner-tittle-articles">ORA, BOLAS!</h3>
+                    <p class="header__banner-text-articles">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error.</p>
+                </article>
+
+                <article class="header__banner-articles">
+                    <h3 class="header__banner-tittle-articles">ORA, BOLAS!</h3>
+                    <p class="header__banner-text-articles">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    </p>
+                </article>
+
+                <article class="header__banner-articles">
+                    <h3 class="header__banner-tittle-articles">ORA, BOLAS!</h3>
+                    <p class="header__banner-text-articles">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur.</p>
+                </article>
+            </div>
+        </div>
+
+    </header>
+
+    <hr class="division-line">
+
+    <!-- MAIN -->
+    <main>
+        <!-- SECTION-1 -->
+        <section class="news">
+
+        <!-- ESTO VA NONE PAL GRANDE -->
+            <div class="news__tittle-mobile">
+
+                <div class="news__tag">
+                    <p class="news__text-tag">CATEGORIA</p>
+                </div>
+
+                <h2 class="news__tittle">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur impedit omnis, velit autem.
+                </h2>
+                <p class="news__text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem...
+                </p>
+            </div>
+
+            <div class="news__articles-content">
+                <article class="news__articles-imgs">
+                    <img class="news__img-articles-primary" src="https://images.jota.info/wp-content/uploads/2022/02/vacina-contra-a-covid19.jpg" alt="Article Image">
+                    <div class="news__tag-btn-first-article">
+                        <span class="news__tag-articles-img">CATEGORIA</span>
+                        <button class="news__btn-articles-img"><img class="news__btn-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzZ5_AZTtmJsCeXPIJ25tDhe8oVxaJ8qCWj_2wSNMR_2QMLWlNQPCFP-mzJPoiCp2YLo0&usqp=CAU" alt="Share Button">Compartilhe</button>
+                    </div>
+
+                    <!-- ESTE SE MOSTRARA EN TELA GRANDE -->
+                    <div class="news__arrows-article">
+                        <button>
+                            <
+                        </button>
+                        <button>
+                            >
+                        </button>
+                    </div>
+
+                    <div class="news__tittles-articles">
+                        <h3 class="news__tittle-secondary">
+                            <span class="news__bullet-point">●</span> VACINAÇAO
+                        </h3>
+                        <h2 class="news__tittle-primary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, repudiandae beatae.</h2>
+                    </div>
+
+                    <div class="news__slides-content">
+                        <span class="news__slides-articles"><span>●</span>  o o</span>
+                    </div>
+                </article>
+
+                <!-- GRANDE ES OTRO ARTICLE, ESTE SE COPIA, SE CREA EL OTRO Y ESTE PASA A NONE -->
+                <article>
+                    <img class="news__img-articles-secondary" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEs30OTjbgfEP2DFEH8s0xLJsJY3jM61hOYw&usqp=CAU" alt="Article Image">
+                    <div class="news__tag-btn-second-article">
+                        <span class="news__tag-articles-img">CATEGORIA</span>
+                        <button class="news__btn-articles-img"><img class="news__btn-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzZ5_AZTtmJsCeXPIJ25tDhe8oVxaJ8qCWj_2wSNMR_2QMLWlNQPCFP-mzJPoiCp2YLo0&usqp=CAU" alt="Share Button">Compartilhe</button>
+                    </div>
+                    <div class="news__tittles-articles">
+                        <h3 class="news__tittle-secondary">
+                            <span class="news__bullet-point">●</span> STRANGER THINGS
+                        </h3>
+                        <h2 class="news__tittle-primary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, repudiandae beatae.</h2>
+                    </div>
+                </article>
+            </div>
+
+            <div>
+                <!-- ESTE DIV ES VISIBLE GRANDE -->
+                <div class="news__articles-text-first">
+                    <article>
+                        <h4>CATEGORIA</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia.</p>
+                    </article>
+
+                    <article>
+                        <h4>CATEGORIA</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia.</p>
+                    </article>
+
+                    <article>
+                        <h4>CATEGORIA</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia.</p>
+                    </article>
+                </div>
+
+                <!-- ESTE ASIDE VA OCULTO EN TELA GRANDE -->
+                <div class="news__advertising-content">
+                    <aside class="news__advertising-first"><img class="news__advertising-first-img" src="https://http2.mlstatic.com/D_NQ_NP_839783-MLA49967689324_052022-O.jpg" alt="Advertising">
+                </div>
+
+                <div class="news__articles-content-secondary">
+                    <article class="news__articles-img">
+                        <img class="news__articles-small-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwxU6jY3jp1-37XjgpVAS0w6RzH9KkWr1iYA&usqp=CAU" alt="Article Image">
+                        <div class="news__info-articles">
+                            <h4 class="news__tittle-small-article">CATEGORIA</h4>
+                            <p class="news__text-article">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita!</p>
+                        </div>
+                    </article>
+
+                    <article class="news__articles-img">
+                        <img class="news__articles-small-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwxU6jY3jp1-37XjgpVAS0w6RzH9KkWr1iYA&usqp=CAU" alt="Article Image">
+                        <div class="news__info-articles">
+                            <h4 class="news__tittle-small-article">CATEGORIA</h4>
+                            <p class="news__text-article">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita!</p>
+                        </div>
+                    </article>
+
+                    <article class="news__articles-img">
+                        <img class="news__articles-small-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwxU6jY3jp1-37XjgpVAS0w6RzH9KkWr1iYA&usqp=CAU" alt="Article Image">
+                        <div class="news__info-articles">
+                            <h4 class="news__tittle-small-article">CATEGORIA</h4>
+                            <p class="news__text-article">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita!</p>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- ESTOS 2 ASIDE VAN NONE EN TELA PEQUENA -->
+                <div class="news__advertisings-content">
+                    <aside class="news__advertising-last">
+                        <img src="" alt="Aside Image">
+                    </aside>
+                    <aside>
+                        <img src="" alt="Aside Image">
+                    </aside>
+                </div>
+
+                <!-- ESTOS ARTICLES VAN NONE EN TELA PEQUENA -->
+                <div class="news__articles-text-last">
+                    <article>
+                        <h4>CATEGORIA</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia.</p>
+                    </article>
+
+                    <article>
+                        <h4>CATEGORIA</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia.</p>
+                    </article>
+
+                    <article>
+                        <h4>CATEGORIA</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia.</p>
+                    </article>
+                </div>
+
+    <!-- ESTO  ASIDE VA NONE EN TELA PEQUENA -->
+                <div class="news__big-advertising-content">
+                    <aside>
+                        <img src="" alt="Aside Image">
+                    </aside>
+                </div>
+
+                <!-- MESSI - ESTE DIV NO VA EN TELA GRANDE -->
+                <div>
+
+                    <div class="news__sport-img-content">
+                        <img class="news__sport-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ9DPq50bKTWyB67AzvQDg8I_6U5z3C2nZMA&usqp=CAU" alt="Fifa World Cup 2022">
+                    </div>
+
+                    <article>
+                        <img class="news__img-articles-tertiary" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVr5CORJrHae3iUbpokZpS_5Ww1zuXF-HMIA&usqp=CAU" alt="Messi Image">
+                        <div class="news__tag-btn-third-article">
+                            <span class="news__tag-sport-article">ESPORTES</span>
+                            <button class="news__btn-sport-article"><img class="news__sport-btn-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzZ5_AZTtmJsCeXPIJ25tDhe8oVxaJ8qCWj_2wSNMR_2QMLWlNQPCFP-mzJPoiCp2YLo0&usqp=CAU" alt="Share Button">Compartilhe</button>
+                        </div>
+                        <div class="news__sport-tittles">
+                            <h3 class="news__tittle-secondary">
+                                <span class="news__bullet-point">●</span> COPA QATAR 2022
+                            </h3>
+                            <h2 class="news__tittle-primary">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h2>
+                        </div>
+                    </article>
+
+                    <div class="news__slides-sport-content">
+                        <span class="news__slides-sport-article"><span>●</span>  o o</span>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <!-- SECTION-2 -->
+        <section class="tv">
+            <div>
+                <div class="tv__head">
+                    <div class="tv__logo-content">
+                        <img class="tv__logo-img" src="https://orbi.band.uol.com.br/themes/default/assets/img/svg/orbi_icon_branco.svg" alt="Orbi TV Logo">
+    
+                        <span id="tv__first-logo-text" >ORBI<span id="tv__second-logo-text"> TV</span></span>
+                    </div>
+                    
+                    <div class="tv__arrow-buttons-small-screen">
+                        <button class="tv__arrow-buttons"><</button>
+                        <button class="tv__arrow-buttons">></button>
+                    </div>
+                </div>
+
+                <div class="tv__button-watch-type">
+                    <button class="tv__button-videos">VÍDEOS</button>
+                    <button class="tv__button-shorts">SHORTS</button>
+                </div>
+            </div>
+
+            <div class="tv__box-videos">
+                <div class="tv__videos-content">
+                    <img class="tv__videos-imgs" src="https://i.ytimg.com/vi/5m1l53DSQ78/sddefault.jpg" alt="Video">
+                    <p class="tv__text-videos">Lorem ipsum dolor sit amet isicing elit acolpor</p>
+                </div>
+
+                <div class="tv__videos-content">
+                    <img class="tv__videos-imgs" src="https://i.ytimg.com/vi/OCSADYQyQGA/sddefault.jpg" alt="Video">
+                    <p class="tv__text-videos">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+
+                <div class="tv__videos-content">
+                    <img class="tv__videos-imgs" src="https://i.ytimg.com/vi/trpU6Tt7tqQ/sddefault.jpg" alt="Video">
+                    <p class="tv__text-videos">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+
+<!-- ESTE DIV VA NONE EN TELA GRANDE -->
+                <div class="tv__arrow-buttons-big-screen">
+                    <button><</button>
+                    <button>></button>
+                </div>                
+            </div>
+            
+            <div class="tv__slices-content">
+                <span class="tv__slices-videos" id="tv__slice-active">•</span><span class="tv__slices-videos"> o o</span>
+            </div>
+
+            <div class="tv__social-media-content">
+                <div class="tv__youtube-canal">
+                    <img class="tv__youtube-logo" src="https://orbi.band.uol.com.br/themes/default/assets/img/svg/icon_youtube.svg" alt="
+                        Youtube Logo">
+                </div>
+                <div class="tv__youtube-link-canal">
+                    <p>Inscriva-se no nosso canal.</p>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- SECTION-3 -->
+        <section class="column">
+            <div>
+
+                <!-- ESTE DIV TIENE COISA DA TELA MOBILE -->
+                <div class="column__content">
+                    <div>
+                        <img class="column__climate" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgQxzydQMjthGiyiFN84StsIrwbTm-rCNIJsE9KXi5X_lFprnDZFlwmGlTYDEMayBxc0M&usqp=CAU" alt="Climate">
+                    </div>
+
+                    <aside class="column__advertising-first">
+                        <img class="column__advertising-img-first" src="https://justiciacolectiva.org.ar/wp-content/uploads/2016/12/publicidad-difusi%C3%B3n.png" alt="Advertising">
+                    </aside>
+
+                    <div class="columnas__logo-content">
+                        <div>
+                            <img class="column__img-logo" src="https://orbi.band.uol.com.br/themes/default/assets/img/svg/orbiBlack.svg" alt="Column Logo">
+                        </div>
+
+                        <div>
+                            <p class="column__text-logo">COLUNAS</p>
+                        </div>
+                    </div>
+
+                    <div class="column__writer-content">
+                        <div class="column-writer">
+                            <img class="column-img" src="https://cdn.orbi.news/img/category/185x185/category-1-33-50Fill-orbi.webp?fallback=%2Fimg%2Fcategory%2Fcategory-1-33-50.png%3Fxid%3D50&xid=50" alt="Column Writer">
+                        </div>
+
+                        <div class="column__text-tittle">
+                            <h3 class="column__tittle">
+                                Meu amigo é o bicho!
+                            </h3>
+                            <p class="column__text">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="column__writer-content">
+                        <div class="column-writer">
+                            <img class="column-img" src="https://cdn.orbi.news/img/category/185x185/category-1-33-50Fill-orbi.webp?fallback=%2Fimg%2Fcategory%2Fcategory-1-33-50.png%3Fxid%3D50&xid=50" alt="Column Writer">
+                        </div>
+
+                        <div class="column__text-tittle">
+                            <h3 class="column__tittle">
+                                Meu amigo é o bicho!
+                            </h3>
+                            <p class="column__text">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="column__writer-content">
+                        <div class="column-writer">
+                            <img class="column-img" src="https://cdn.orbi.news/img/category/185x185/category-1-33-50Fill-orbi.webp?fallback=%2Fimg%2Fcategory%2Fcategory-1-33-50.png%3Fxid%3D50&xid=50" alt="Column Writer">
+                        </div>
+
+                        <div class="column__text-tittle">
+                            <h3 class="column__tittle">
+                                Meu amigo é o bicho!
+                            </h3>
+                            <p class="column__text">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class=column__btn-content>
+                        <button class="column__more-content-btn">
+                            Todos os colunistas
+                        </button>
+                    </div>
+
+                    <aside class="column__advertising-second">
+                        <img class="column__advertising-img-second"  src="https://http2.mlstatic.com/D_NQ_NP_839783-MLA49967689324_052022-O.jpg" alt="Advertising">
+                    </aside>
+
+                    <div class="column__more-read__box">
+                        <h3 class="column__tittle-more-read">+LIDAS</h3>
+
+                        <div class="column__more-read-content">
+                            <div class="column__more-read">
+                                <p class="column__more-read__number">1</p>
+                            </div>
+
+                            <div class="column__more-read__text-content">
+                                <p class="column__more-read-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem et hic iure?
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="column__more-read-content">
+                            <div class="column__more-read">
+                                <p class="column__more-read__number">1</p>
+                            </div>
+
+                            <div class="column__more-read__text-content">
+                                <p class="column__more-read-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem et hic iure?
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="column__more-read-content">
+                            <div class="column__more-read">
+                                <p class="column__more-read__number">1</p>
+                            </div>
+
+                            <div class="column__more-read__text-content">
+                                <p class="column__more-read-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem et hic iure?
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="column__more-read-content">
+                            <div class="column__more-read">
+                                <p class="column__more-read__number">1</p>
+                            </div>
+
+                            <div class="column__more-read__text-content">
+                                <p class="column__more-read-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem et hic iure?
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="column__more-read-content">
+                            <div class="column__more-read">
+                                <p class="column__more-read__number">1</p>
+                            </div>
+
+                            <div class="column__more-read__text-content">
+                                <p class="column__more-read-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem et hic iure?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <article class="column__article">
+                            <img class="column__img-articles-secondary" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEs30OTjbgfEP2DFEH8s0xLJsJY3jM61hOYw&usqp=CAU" alt="Article Image">
+                            <div class="column__tag-btn-second-article">
+                                <span class="column__tag-articles-img">CATEGORIA</span>
+                                <button class="column__btn-articles-img"><img class="column__btn-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzZ5_AZTtmJsCeXPIJ25tDhe8oVxaJ8qCWj_2wSNMR_2QMLWlNQPCFP-mzJPoiCp2YLo0&usqp=CAU" alt="Share Button">Compartilhe</button>
+                            </div>
+                            <div class="column__tittles-articles">
+                                <h3 class="column__tittle-secondary">
+                                    <span class="column__bullet-point">●</span> STRANGER THINGS
+                                </h3>
+                                <h2 class="column__tittle-primary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, repudiandae beatae.</h2>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="column__articles-content-primary">
+                        <article class="column__articles-img">
+                            <img class="column__articles-small-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwxU6jY3jp1-37XjgpVAS0w6RzH9KkWr1iYA&usqp=CAU" alt="Article Image">
+                            <div class="column__info-articles">
+                                <h4 class="column__tittle-small-article">CATEGORIA</h4>
+                                <p class="column__text-article">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita!</p>
+                            </div>
+                        </article>
+    
+                        <article class="column__articles-img">
+                            <img class="column__articles-small-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwxU6jY3jp1-37XjgpVAS0w6RzH9KkWr1iYA&usqp=CAU" alt="Article Image">
+                            <div class="column__info-articles">
+                                <h4 class="column__tittle-small-article">CATEGORIA</h4>
+                                <p class="column__text-article">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita!</p>
+                            </div>
+                        </article>
+    
+                        <article class="column__articles-img">
+                            <img class="column__articles-small-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwxU6jY3jp1-37XjgpVAS0w6RzH9KkWr1iYA&usqp=CAU" alt="Article Image">
+                            <div class="column__info-articles">
+                                <h4 class="column__tittle-small-article">CATEGORIA</h4>
+                                <p class="column__text-article">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita!</p>
+                            </div>
+                        </article>
+                    </div>
+
+                    <aside class="column__advertising-third">
+                        <img class="column__advertising-img-third"  src="https://http2.mlstatic.com/D_NQ_NP_839783-MLA49967689324_052022-O.jpg" alt="Advertising">
+                    </aside>
+
+                    <div class="column__articles-content-secondary">
+                        <article class="column__articles-img">
+                            <img class="column__articles-small-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwxU6jY3jp1-37XjgpVAS0w6RzH9KkWr1iYA&usqp=CAU" alt="Article Image">
+                            <div class="column__info-articles">
+                                <h4 class="column__tittles-small-article">CATEGORIA</h4>
+                                <p class="column__text-article">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita!</p>
+                            </div>
+                        </article>
+    
+                        <article class="column__articles-img">
+                            <img class="column__articles-small-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwxU6jY3jp1-37XjgpVAS0w6RzH9KkWr1iYA&usqp=CAU" alt="Article Image">
+                            <div class="column__info-articles">
+                                <h4 class="column__tittle-small-article">CATEGORIA</h4>
+                                <p class="column__text-article">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita!</p>
+                            </div>
+                        </article>
+    
+                        <article class="column__articles-img">
+                            <img class="column__articles-small-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwxU6jY3jp1-37XjgpVAS0w6RzH9KkWr1iYA&usqp=CAU" alt="Article Image">
+                            <div class="column__info-articles">
+                                <h4 class="column__tittle-small-article">CATEGORIA</h4>
+                                <p class="column__text-article">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita!</p>
+                            </div>
+                        </article>
+                    </div>
+
+                    <aside class="column__advertising-fourth">
+                        <img class="column__advertising-img-fourth" src="https://justiciacolectiva.org.ar/wp-content/uploads/2016/12/publicidad-difusi%C3%B3n.png" alt="Advertising">
+                    </aside>
+                </div>
+
+        <!-- ESTE DIV E PARA TELA GRANDE -->
+                <div class="column__">
+                    <div>
+                        <h2>+LIDAS</h2>
+    
+                        <div>
+                            <div>
+                                <img src="" alt="Number 1">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum eum neque cum?</p>
+                            </div>
+    
+                            <div>
+                                <img src="" alt="Number 2">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum eum neque cum?</p>
+                            </div>
+                            <div>
+                                <img src="" alt="Number 3">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum eum neque cum?</p>
+                            </div>
+                            <div>
+                                <img src="" alt="Number 4">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum eum neque cum?</p>
+                            </div>
+    
+                            <div>
+                                <img src="" alt="Number 5">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum eum neque cum?</p>
+                            </div>
+                        </div>
+    
+                        <div>
+                            <img src="" alt="Foto">
+                        </div>
+    
+                        <div>
+                            <article>
+                                <img src="" alt="Article Image">
+                                <div>
+                                    <button>ESPORTES</button>
+                                    <button><img src="" alt="Share Button">Compartilhe</button>
+                                </div>
+                                <div>
+                                    <h4>
+                                        <span>o</span> ESPORTE-TITULOS
+                                    </h4>
+                                    <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, repudiandae beatae.
+                                    </h3>
+                                </div>
+                            </article>
+    
+                            <article>
+                                <img src="" alt="Article Image">
+                                <div>
+                                    <button>ESPORTES</button>
+                                    <button><img src="" alt="Share Button">Compartilhe</button>
+                                </div>
+                                <div>
+                                    <h4>
+                                        <span>o</span> ESPORTE-TITULOS
+                                    </h4>
+                                    <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, repudiandae beatae.
+                                    </h3>
+                                </div>
+                            </article>
+    
+                            <article>
+                                <img src="" alt="Article Image">
+                                <div>
+                                    <button>ESPORTES</button>
+                                    <button><img src="" alt="Share Button">Compartilhe</button>
+                                </div>
+                                <div>
+                                    <h4>
+                                        <span>o</span> ESPORTE-TITULOS
+                                    </h4>
+                                    <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, repudiandae beatae.
+                                    </h3>
+                                </div>
+                            </article>
+    
+                            <article>
+                                <img src="" alt="Article Image">
+                                <div>
+                                    <button>ESPORTES</button>
+                                    <button><img src="" alt="Share Button">Compartilhe</button>
+                                </div>
+                                <div>
+                                    <h4>
+                                        <span>o</span> ESPORTE-TITULOS
+                                    </h4>
+                                    <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, repudiandae beatae.
+                                    </h3>
+                                </div>
+                            </article>
+                        </div>
+    
+                        <div>
+                            <button>
+                                < </button>
+                                    <button>
+                                        >
+                                    </button>
+                        </div>
+    
+                        <div>
+                            <span><span>o</span> o o</span>
+                        </div>
+                    </div>
+    
+                    <div>
+                        <div>
+                            <img src="" alt="Colum Logo">
+                            <div>
+                                <img src="" alt="Article Image">
+                                <h2>Lorem, ipsum dolor.</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum autem qui cupiditate.</p>
+                            </div>
+    
+                            <div>
+                                <img src="" alt="Article Image">
+                                <h2>Lorem, ipsum dolor.</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum autem qui cupiditate.</p>
+                            </div>
+    
+                            <div>
+                                <img src="" alt="Article Image">
+                                <h2>Lorem, ipsum dolor.</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum autem qui cupiditate.</p>
+                            </div>
+    
+                            <div>
+                                <img src="" alt="Article Image">
+                                <h2>Lorem, ipsum dolor.</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum autem qui cupiditate.</p>
+                            </div>
+                        </div>
+    
+                        <div>
+                            <Aside>
+                                <img src="" alt="Aside Image">
+                            </Aside>
+                        </div>
+    
+                        <div>
+                            <h3>NEWSTELLER</h3>
+                            <h2>Orbi e tal</h2>
+    
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eum sit animi delectus
+                                soluta? Optio, quo at!</p>
+    
+                            <div>
+                                <form action="">
+    
+                                    <div>
+                                        <span><input type="text" placeholder="Digite seu Whatsapp com DDD"><button
+                                                type="button"><img src="" alt="Input-Button Image"></button></span>
+                                    </div>
+    
+                                    <p>OU</p>
+    
+                                    <div>
+                                        <span><input type="text" placeholder="Digite seu e-mail"><button type="button"><img
+                                                    src="" alt="Input-Button Image"></button></span>
+                                    </div>
+    
+                                    <div>
+                                        <span><input type="checkbox" placeholder="" title="check"><label>I'm not a
+                                                robot</label><img src="" alt="ReCatcha Image"></span>
+                                    </div>
+                                </form>
+                            </div>
+    
+    
+                            <div>
+                                <img src="" alt="Article Image">
+                                <h4>Lorem, ipsum dolor.</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum autem qui cupiditate.</p>
+                            </div>
+    
+                        </div>
+                    </div>
+    
+                    <div>
+                        <div>
+                            <h2>HORÓSCOPO DO DIA</h2>
+                            <p>Por <img src="" alt="Personare Image"></p>
+                        </div>
+    
+                        <div>
+                            <div>
+                                <img src="" alt="Signs of the Zodiac">
+                                <p>Áries</p>
+                            </div>
+                            <div>
+                                <img src="" alt="Signs of the Zodiac">
+                                <p>Touro</p>
+                            </div>
+                            <div>
+                                <img src="" alt="Signs of the Zodiac">
+                                <p>Gêmeos</p>
+                            </div>
+                            <div>
+                                <img src="" alt="Signs of the Zodiac">
+                                <p>Câncer</p>
+                            </div>
+                            <div>
+                                <img src="" alt="Signs of the Zodiac">
+                                <p>Leâo</p>
+                            </div>
+                            <div>
+                                <img src="" alt="Signs of the Zodiac">
+                                <p>Virgem</p>
+                            </div>
+                            <div>
+                                <img src="" alt="Signs of the Zodiac">
+                                <p>Escorpiâo</p>
+                            </div>
+                            <div>
+                                <img src="" alt="Signs of the Zodiac">
+                                <p>Libra</p>
+                            </div>
+                            <div>
+                                <img src="" alt="Signs of the Zodiac">
+                                <p>Sagitário</p>
+                            </div>
+                            <div>
+                                <img src="" alt="Signs of the Zodiac">
+                                <p>Capricórnio</p>
+                            </div>
+                            <div>
+                                <img src="" alt="Signs of the Zodiac">
+                                <p>Aquário</p>
+                            </div>
+                            <div>
+                                <img src="" alt="Signs of the Zodiac">
+                                <p>Peixes</p>
+                            </div>
+                        </div>
+    
+                    </div>
+    
+                    <div>
+                        <div>
+                            <img src="" alt="Culture Logo">
+                        </div>
+    
+                        <div>
+                            <div>
+                                <article>
+                                    <img src="" alt="Article Image">
+                                    <div>
+                                        <span>CATEGORIA</span>
+                                        <button><img src="" alt="Share Button">Compartilhe</button>
+                                    </div>
+                                    <div>
+                                        <h4>
+                                            <span>o</span> LUDMILLA
+                                        </h4>
+                                        <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, repudiandae
+                                            beatae.</h3>
+                                    </div>
+                                </article>
+                            </div>
+    
+                            <div>
+                                <article>
+                                    <h4>CATEGORIA</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia.</p>
+                                </article>
+    
+                                <article>
+                                    <h4>CATEGORIA</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia.</p>
+                                </article>
+    
+                                <article>
+                                    <h4>CATEGORIA</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia.</p>
+                                </article>
+                            </div>
+    
+                            <div>
+                                <aside>
+                                    <img src="" alt="Aside Image">
+                                </aside>
+                            </div>
+    
+                            <div>
+                                <article>
+                                    <img src="" alt="Article Image">
+                                    <div>
+                                        <h4>CATEGORIA</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita!</p>
+                                    </div>
+                                </article>
+    
+                                <article>
+                                    <img src="" alt="Article Image">
+                                    <div>
+                                        <h4>CATEGORIA</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita!</p>
+                                    </div>
+                                </article>
+    
+                                <article>
+                                    <img src="" alt="Article Image">
+                                    <div>
+                                        <h4>CATEGORIA</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita!</p>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div>
+                        <Aside>
+                            <img src="" alt="Aside Image">
+                        </Aside>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION-4 -->
+        <section class="videos">
+
+            <div class="videos__logo-box">
+                <div class="videos__logo-content">
+                    <img class="videos__logo-img" src="https://orbi.band.uol.com.br/themes/default/assets/img/svg/orbiWhite.svg" alt="Videos Logo">
+                </div>
+
+                <div class="videos__text-content">
+                    <p class="videos__text-logo">VÍDEOS</p>
+                </div>
+            </div>
+
+            <nav class="videos__nav">
+                    <ul class="videos__nav-ul">
+                        <li class="videos__ul-list">Todos os vídeos</li>
+                        <li class="videos__ul-list">Cinema</li>
+                        <li class="videos__ul-list">Música</li>
+                        <li class="videos__ul-list">Teatro</li>
+                        <li class="videos__ul-list">Entrevistas</li>
+                        <li class="videos__ul-list">Entretenimento</li>
+                    </ul>
+            </nav>
+     
+            <div class="video__big-vd-content">
+                <div class="video__content-img">
+                    <img class="video__big-img" src="https://i.ytimg.com/vi/vR9JoyGalKY/sddefault.jpg" alt="Video">
+                </div>
+
+                <div class="video__big-text-img">
+                    <h2 class="video__big-text-vd">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea!
+                    </h2>
+                </div>
+            </div>
+
+            <div class="videos__tittle-content">
+                <h3 class="videos__relation-vd-tittle">VÍDEOS RELACIONADOS:</h3>
+            </div>
+  
+            <div class="videos__box-vds">
+                <div class="videos__imgs-content">
+                    <img class="videos__imgs-vds" src="https://i.ytimg.com/vi/vR9JoyGalKY/sddefault.jpg" alt="Video Pequeño">
+
+                    <h4 class="videos__tittle-imgs">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </h4>
+                </div>
+
+                <div class="videos__imgs-content">
+                    <img class="videos__imgs-vds" src="https://i.ytimg.com/vi/vR9JoyGalKY/sddefault.jpg" alt="Video Pequeño">
+
+                    <h4 class="videos__tittle-imgs">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </h4>
+                </div>
+
+                <div class="videos__imgs-content">
+                    <img class="videos__imgs-vds" src="https://i.ytimg.com/vi/vR9JoyGalKY/sddefault.jpg" alt="Video Pequeño">
+
+                    <h4 class="videos__tittle-imgs">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </h4>
+                </div>
+
+                <div class="videos__imgs-content">
+                    <img class="videos__imgs-vds" src="https://i.ytimg.com/vi/vR9JoyGalKY/sddefault.jpg" alt="Video Pequeño">
+
+                    <h4 class="videos__tittle-imgs">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </h4>
+                </div>
+            </div>
+
+            <div class="videos__slices-content">
+                <span><span id="videos__slice-active">●</span> o o</span>
+            </div>
+            
+        </section>
+
+        <hr>
+        <!-- SECTION-5 -->
+        <section>
+            <aside>
+                <img src="" alt="Aside Image">
+            </aside>
+
+            <div>
+                <div>
+                    <aside>
+                        <img src="" alt="Aside Image">
+                    </aside>
+                </div>
+
+                <div>
+                    <article>
+                        <img src="" alt="Article Image">
+                        <div>
+                            <h4>CATEGORIA</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita!</p>
+                        </div>
+                    </article>
+
+                    <article>
+                        <img src="" alt="Article Image">
+                        <div>
+                            <h4>CATEGORIA</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita!</p>
+                        </div>
+                    </article>
+
+                    <article>
+                        <img src="" alt="Article Image">
+                        <div>
+                            <h4>CATEGORIA</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita!</p>
+                        </div>
+                    </article>
+                </div>
+
+                <div>
+                    <div>
+                        <img src="" alt="Cup 2022 - Logo">
+                    </div>
+
+                    <p>
+                        < Grupo A <span>></span></Grupo>
+                    </p>
+
+                    <div>
+                        <span>
+                            <p>GAT <img src="" alt="Flag of a country"></p><strong> 1 </strong>
+                            <p>x</p><strong> 1 </strong>
+                            <p><img src="" alt="Flag of a country"> EQU</p>
+                        </span>
+                    </div>
+
+                    <p>18/11/2022</p>
+
+                    <span><span>o</span> o o</span>
+
+                </div>
+
+                <div>
+                    <div>
+                        <img src="" alt="Quadrinhos Logo">
+                    </div>
+
+                    <div>
+                        <img src="" alt="Outra Image">
+                    </div>
+
+                    <div>
+                        <div>
+                            <button>
+                                << /button>
+                                    <h3>Banda Desenhada</h3><button>></button>
+                        </div>
+
+                        <p>Clóvis</p>
+                    </div>
+                </div>
+
+                <div>
+                    <h2>JORNAL DIGITAL</h2>
+                    <img src="" alt="ORBI">
+                </div>
+
+                <div>
+                    <div>
+                        <h2>HORÓSCOPO DO DIA</h2>
+                        <p>Por <img src="" alt="Personare Image"></p>
+                    </div>
+
+                    <div>
+                        <div>
+                            <img src="" alt="Signs of the Zodiac">
+                            <p>Áries</p>
+                        </div>
+                        <div>
+                            <img src="" alt="Signs of the Zodiac">
+                            <p>Touro</p>
+                        </div>
+                        <div>
+                            <img src="" alt="Signs of the Zodiac">
+                            <p>Gêmeos</p>
+                        </div>
+                        <div>
+                            <img src="" alt="Signs of the Zodiac">
+                            <p>Câncer</p>
+                        </div>
+                        <div>
+                            <img src="" alt="Signs of the Zodiac">
+                            <p>Leâo</p>
+                        </div>
+                        <div>
+                            <img src="" alt="Signs of the Zodiac">
+                            <p>Virgem</p>
+                        </div>
+                        <div>
+                            <img src="" alt="Signs of the Zodiac">
+                            <p>Escorpiâo</p>
+                        </div>
+                        <div>
+                            <img src="" alt="Signs of the Zodiac">
+                            <p>Libra</p>
+                        </div>
+                        <div>
+                            <img src="" alt="Signs of the Zodiac">
+                            <p>Sagitário</p>
+                        </div>
+                        <div>
+                            <img src="" alt="Signs of the Zodiac">
+                            <p>Capricórnio</p>
+                        </div>
+                        <div>
+                            <img src="" alt="Signs of the Zodiac">
+                            <p>Aquário</p>
+                        </div>
+                        <div>
+                            <img src="" alt="Signs of the Zodiac">
+                            <p>Peixes</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div>
+                        <h2>WEBSTORIES</h2>
+
+                        <div>
+                            <img src="" alt="Stories">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                        </div>
+
+                        <div>
+                            <img src="" alt="Stories">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                        </div>
+
+                        <div>
+                            <img src="" alt="Stories">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                        </div>
+
+                    </div>
+
+                    <div></div>
+
+                    <div></div>
+                </div>
+
+                <div>
+                    <article>
+                        <img src="" alt="Article Image">
+                        <div>
+                            <h4>CATEGORIA</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita!</p>
+                        </div>
+                    </article>
+
+                    <article>
+                        <img src="" alt="Article Image">
+                        <div>
+                            <h4>CATEGORIA</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita!</p>
+                        </div>
+                    </article>
+
+                    <article>
+                        <img src="" alt="Article Image">
+                        <div>
+                            <h4>CATEGORIA</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita!</p>
+                        </div>
+                    </article>
+
+                    <article>
+                        <img src="" alt="Article Image">
+                        <div>
+                            <h4>CATEGORIA</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita!</p>
+                        </div>
+                    </article>
+                </div>
+
+                <div>
+                    <h4>
+                        Enquete
+                    </h4>
+
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum.
+                    </p>
+
+                    <div>
+                        <input type="radio" name="" id="nome1"><label for="nome1">Pedro</label>
+                        <input type="radio" name="" id="nome2"><label for="nome2">Gabigol</label>
+                        <input type="radio" name="" id="nome3"><label for="nome3">Pedro e Gabigol</label>
+                        <input type="radio" name="" id="nome4"><label for="nome4">Nenhum dos dois</label>
+                    </div>
+
+                    <button type="submit">Enviar</button>
+
+                </div>
+
+                <div>
+                    <div>
+                        <article>
+                            <img src="" alt="Article Image">
+                            <div>
+                                <h4>CATEGORIA</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita!</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="" alt="Article Image">
+                            <div>
+                                <h4>CATEGORIA</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita!</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="" alt="Article Image">
+                            <div>
+                                <h4>CATEGORIA</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita!</p>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div>
+                        <aside>
+                            <img src="" alt="Aside Image">
+                        </aside>
+                    </div>
+
+                    <div>
+                        <article>
+                            <img src="" alt="Article Image">
+                            <div>
+                                <span>CATEGORIA</span>
+                                <button><img src="" alt="Share Button">Compartilhe</button>
+                            </div>
+                            <div>
+                                <h4>
+                                    <span>o</span> LUDMILLA
+                                </h4>
+                                <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, repudiandae beatae.
+                                </h3>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div>
+                        <article>
+                            <h4>CATEGORIA</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia.</p>
+                        </article>
+
+                        <article>
+                            <h4>CATEGORIA</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia.</p>
+                        </article>
+
+                        <article>
+                            <h4>CATEGORIA</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia.</p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <button type="button">CARREGAR MAIS</button>
+
+    </main>
+
+    <hr>
+    <!-- FOOTER -->
+    <footer>
+        <img src="" alt="Logo">
+
+        <div>
+            <img src="" alt="Social Media Icons">
+            <img src="" alt="Social Media Icons">
+            <img src="" alt="Social Media Icons">
+            <img src="" alt="Social Media Icons">
+        </div>
+
+        <div>
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>Cultura</li>
+                    <li>Entretenimento</li>
+                    <li>Música</li>
+                    <li>Cinema</li>
+                    <li>Jornal</li>
+                    <li>Agenda</li>
+                    <li>TV</li>
+                    <li>Cultura</li>
+                    <li>Entretenimento</li>
+                    <li>Música</li>
+                    <li>Cinema</li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>

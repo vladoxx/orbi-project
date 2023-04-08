@@ -1,0 +1,15 @@
+@import url(./mobile/head.css);
+@import url(./mobile/news.css);
+@import url(./mobile/tv.css);
+@import url(./mobile/column.css);
+@import url(./mobile/videos.css);
+
+
+html {
+    font-size: 14px;
+  }
+
+body {
+    font-family: 'Pacaembu Trial', sans-serif;;
+    background: #faf5f5
+}
