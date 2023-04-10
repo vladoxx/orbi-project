@@ -1,7 +1,7 @@
 .foot {
     background: #e7e3e3;
     text-align: center;
-    padding: 3rem 0 8rem 0;
+    padding: 2.5rem 0 6.5rem 0;
 }
 
 .foot__logo-content {
@@ -10,6 +10,7 @@
 
 .foot__logo {
     width: 9rem;
+    cursor: pointer;
 }
 
 .foot__icon-content {
@@ -20,6 +21,7 @@
 .foot__icon {
     width: 3rem;
     margin-right: 0.8rem;
+    cursor: pointer;
 }
 
 #tiktok {
@@ -33,14 +35,14 @@
     margin-bottom: 2.7rem;
 }
 
-.foot__nav {
-
-}
-
 .foot__list {
     font-size: 0.8rem;
 }
 
 .foot__ul-list {
     margin-bottom: 1.5rem;
+    cursor: pointer;
 }
+
+@media (min-width: 360px) and (max-width: 425px) {}
+@media (min-width: 1024px) {}

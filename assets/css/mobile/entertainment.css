@@ -2,18 +2,8 @@
     padding: 1.7rem;
 }
 
-.entertainment-content {
-
-}
-
-/* TELA GRANDE */
 .entertainment__advertising-first {
     display: none;
-}
-
-/* TELA GRANDE */
-.entertainment__advertising-first-img {
-
 }
 
 .entertainment__advertising-second {
@@ -21,7 +11,7 @@
 }
 
 .entertainment__advertising-second-img {
-    width: 22rem;
+    width: 100%;
     height: 17.4rem;
 }
 
@@ -45,10 +35,6 @@
     margin-bottom: 2.5rem;
 }
 
-.entertainment__form {
-
-}
-
 .entertainment__form-input-email-content {
     text-align: center;
 }
@@ -64,13 +50,10 @@
     margin-bottom: 1rem;
 }
 
-.entertainment__form-input-check-content {
-
-}
-
 .entertainment__form-input-check {
     margin-right: 0.6rem;
     margin-bottom: 5rem;
+    cursor: pointer;
 }
 
 .entertainment__label-form {
@@ -80,6 +63,7 @@
 
 .entertainment__span-form {
     color: #f70f68;
+    cursor: pointer;
 }
 
 .entertainment__button-submit-form {
@@ -91,10 +75,7 @@
     color: #ffffff;
     font-size: 0.7rem;
     font-weight: 700;
-}
-
-.entertainment__articles-content-first {
-
+    cursor: pointer;
 }
 
 .entertainment__articles-content-third {
@@ -114,10 +95,6 @@
     height: 6rem;
     border-radius: 16px;
     margin-right: 1rem;
-}
-
-.entertainment__info-articles {
-    
 }
 
 .entertainment__tittles-small-article {
@@ -161,6 +138,7 @@
 
 .entertainment__arrows-groups {
     color: #796e71;
+    cursor: pointer;
 }
 
 #right-arrow {
@@ -178,10 +156,6 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 1.2rem;
-}
-
-.entertainment__sports-small-screen-countries {
-
 }
 
 .entertainment-sports-countries-small-screen {
@@ -220,22 +194,18 @@
     font-size: 1.2rem;
 }
 
-/*COPA -  TELA GRANDE */
 .entertainment__sports-big-screen {
     display: none;
 }
 
-/* <!--QUADRINHOS - TELA GRANDE --> */
 .entertainment__games {
     display: none;
 }
 
-/* TELA GRANDE - ORBI JORNAL DIGITAL */
 .entertainment__digital-newspaper-content {
     display: none;
 }
 
-/* <!-- ORBI DIGITAL - TELA PEQUENA --> */
 .entertainment__orbi-digital-content {
 background: linear-gradient(90deg, rgb(115, 28, 155) 0%, rgb(170, 68, 128) 35%, rgb(230, 45, 75) 100%);
 border-radius: 16px;
@@ -253,6 +223,7 @@ margin-bottom: 0.8rem;
 .entertainment__orbi-digital-img-logo {
     width: 2.3rem;
     margin-top: 1.5rem;
+    cursor: pointer;
 }
 
 .entertainment__orbi-digital-img-tittle {
@@ -260,6 +231,7 @@ margin-bottom: 0.8rem;
     font-size: 3rem;
     font-weight: bold;
     margin-top: 1rem;
+    cursor: pointer;
 }
 
 .entertainment__orbi-digital-img-tittle-letter {
@@ -272,22 +244,20 @@ margin-bottom: 0.8rem;
 }
 
 .entertainment__orbi-digital-img {
-    border-radius: 2%;
     width: 13.5rem;
     height: 16.5rem;
+    border-radius: 2%;
+    cursor: pointer;
 }
 
-/* HOROSCOPO - TELA GRANDE */
 .entertainment__horoscope {
     display: none;
 }
 
-/* <!-- WEB STORIES TELA GRANDE --> */
 .entertainment__webstories {
     display: none;
 }
 
-/* <!-- 4 ARTIGOS - TELA GRANDE --> */
 .entertainment__articles-first {
     display: none;
 }
@@ -297,25 +267,18 @@ margin-bottom: 0.8rem;
 }
 
 .entertainment__advertising-third-img {
-    margin-top: 0.9rem;
-    width: 22rem;
+    width: 100%;
     height: 17.4rem;
-}
-
-.entertainment__advertising-img-first-small-screen {
     margin-top: 0.9rem;
-    width: 22rem;
-    height: 17.4rem;
 }
 
 .entertainment__advertising-first-img {
-    width: 80vw;
+    width: 100%;
     height: 3.5rem;
     object-fit: cover;
     margin-bottom: 1.5rem;
 }
 
-/* ENQUEQUE TELA GRANDE */
 .entertainment__survey {
     display: none;
 }
@@ -326,7 +289,7 @@ margin-bottom: 0.8rem;
 
 .entertainment__img-article {
     margin-top: 1.5rem;
-    width: 22rem;
+    width: 100%;
     height: 14.4rem;
     border-radius: 16px;
 }
@@ -356,7 +319,6 @@ margin-bottom: 0.8rem;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
     font-size: 0.7rem;
     font-weight: 200;
     padding: 0.3rem 0.9rem;
@@ -395,12 +357,10 @@ margin-bottom: 0.8rem;
     line-height: 1.3rem;
 }
 
-/* <!-- LUDMILLA - TELA GRANDE --> */
 .entertainment__music {
     display: none;
 }
 
-/* <!-- 3 ARTICLES - TELA GRANDE --> */
 .entertainment__articles-second {
     display: none;
 }
@@ -418,9 +378,11 @@ margin-bottom: 0.8rem;
     font-weight: 700;
     color: #f70f68;
     padding: 0.6rem 1rem;
+    cursor: pointer;
 }
 
-
+@media (min-width: 360px) and (max-width: 425px) {}
+@media (min-width: 1024px) {}
 
 
 

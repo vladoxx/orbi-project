@@ -18,6 +18,10 @@
     align-items: center;
 }
 
+.tv__logo-content:hover {
+    cursor: pointer;
+}
+
 .tv__logo-img {
     width: 3.3rem;
     height: 3.3rem;
@@ -49,6 +53,13 @@
     margin: 0 0 1.3rem;
 }
 
+.tv__button-videos:hover {
+    cursor: pointer;
+    background: #ffffff;
+    color: #000000;
+    font-weight: 800;
+}
+
 .tv__button-shorts {
     color: #867a7a;
     background: #1a1919;
@@ -60,8 +71,12 @@
     margin-left: 0.4rem;
 }
 
-.tv__arrow-buttons-small-screen {
-     
+.tv__button-shorts:hover {
+    cursor: pointer;
+    background: #f70f68;
+    color: #ffffff;
+    font-weight: 700;
+    border: 1px solid #ffffff;
 }
 
 .tv__arrow-buttons {
@@ -70,6 +85,13 @@
     background: #ffffff;
     border-radius: 100%;
     font-size: 1.4rem;
+}
+
+.tv__arrow-buttons:hover {
+    cursor: pointer;
+    background: #f70f68;
+    color: #ffffff;
+    border: 1px solid #ffffff;
 }
 
 .tv__arrow-buttons-big-screen {
@@ -105,11 +127,12 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    font-size: 1.3rem;
 }
 
 #tv__slice-active {
     font-size: 2.4rem;
-    margin: 0 0.2rem 0.1rem; 
+    margin: 0 0.4rem 0.1rem; 
 }
 
 .tv__social-media-content {
@@ -121,6 +144,7 @@
 
 .tv__youtube-canal {
     margin-right: 0.6rem;
+    cursor: pointer;
 }
 
 .tv__youtube-logo {
@@ -130,4 +154,8 @@
 .tv__youtube-link-canal {
     font-size: 0.8rem;
     font-weight: 300;
+    cursor: pointer;
 }
+
+@media (min-width: 360px) and (max-width: 425px) {}
+@media (min-width: 1024px) {}

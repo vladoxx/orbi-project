@@ -11,22 +11,16 @@
     align-items: center;
 }
 
-.videos__logo-content {
-
-}
-
 .videos__logo-img {
     width: 3rem;
-}
-
-.videos__text-content {
-
+    cursor: pointer;
 }
 
 .videos__text-logo {
     margin-left: 0.7rem;
     font-size: 1.1rem;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .videos__nav {
@@ -35,37 +29,31 @@
 }
 
 .videos__nav-ul {
-    /* width: 80vw; */
     display: flex;
     flex-direction: row;
     font-size: 0.75rem;
     font-weight: 200;
     overflow: auto;
+
 }
 
 .videos__ul-list {
-    margin-right: 1.5rem;
     width: 100px;
+    margin-right: 1.5rem;
 }
 
 .videos__ul-list:hover {
     padding-bottom: 0.9rem;
     border-bottom: 0.3rem solid #ffffff;
     transition: 0.5s;
-}
-
-.video__content-img {
-
+    cursor: pointer;
 }
 
 .video__big-img {
-    width: 22rem;
+    width: 100%;
     height: 15.3rem;
     border-radius: 16px;
-}
-
-.video__big-text-img {
-
+    cursor: pointer;
 }
 
 .video__big-text-vd {
@@ -77,10 +65,6 @@
     margin-bottom: -3rem;
 }
 
-.videos__tittle-content {
-
-}
-
 .videos__relation-vd-tittle {
     font-size: 0.8rem;
     margin-bottom: 1rem;
@@ -90,7 +74,6 @@
     display: flex;
     flex-direction: row;
     overflow: auto;
-    /* overflow: hidden; */
 }
 
 .videos__imgs-content {
@@ -101,6 +84,7 @@
     width: 16rem;
     height: 10rem;
     border-radius: 16px;
+    cursor: pointer;
 }
 
 .videos__tittle-imgs {
@@ -123,3 +107,6 @@
 #videos__slice-active {
     font-size: 1rem;
 }
+
+@media (min-width: 360px) and (max-width: 425px) {}
+@media (min-width: 1024px) {}
