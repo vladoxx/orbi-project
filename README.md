@@ -6,5 +6,7 @@ Projeto desenvolvido com HTML e CSS, começando com o conceito de Móbile First 
 - Validado no w3 e PageSpeed
 
 - Tela Mobile --- 360px - 425px
+  
+![Validação PAgeSpeed](https://raw.githubusercontent.com/vladoxx/orbi-project/main/assets/img/PageSpeed.png)
 
 - Desktop ------- Fazendo
