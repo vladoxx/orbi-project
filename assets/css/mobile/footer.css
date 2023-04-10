@@ -1,0 +1,46 @@
+.foot {
+    background: #e7e3e3;
+    text-align: center;
+    padding: 3rem 0 8rem 0;
+}
+
+.foot__logo-content {
+    margin-bottom: 2rem;
+}
+
+.foot__logo {
+    width: 9rem;
+}
+
+.foot__icon-content {
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+}
+
+.foot__icon {
+    width: 3rem;
+    margin-right: 0.8rem;
+}
+
+#tiktok {
+    width: 49px;
+    position: relative;
+    top: 0.3rem;
+    right: 0.5rem;
+}
+
+.foot__nav-list-content {
+    margin-bottom: 2.7rem;
+}
+
+.foot__nav {
+
+}
+
+.foot__list {
+    font-size: 0.8rem;
+}
+
+.foot__ul-list {
+    margin-bottom: 1.5rem;
+}

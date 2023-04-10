@@ -48,6 +48,12 @@
     width: 100px;
 }
 
+.videos__ul-list:hover {
+    padding-bottom: 0.9rem;
+    border-bottom: 0.3rem solid #ffffff;
+    transition: 0.5s;
+}
+
 .video__content-img {
 
 }

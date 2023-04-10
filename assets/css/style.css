@@ -3,13 +3,16 @@
 @import url(./mobile/tv.css);
 @import url(./mobile/column.css);
 @import url(./mobile/videos.css);
+@import url(./mobile/entertainment.css);
+@import url(./mobile/footer.css);
 
 
 html {
-    font-size: 14px;
+  font-size: 14px;
   }
 
 body {
-    font-family: 'Pacaembu Trial', sans-serif;;
-    background: #faf5f5
+  /* text-align: center; */
+  font-family: 'Pacaembu Trial', sans-serif;;
+  background: #faf5f5
 }
