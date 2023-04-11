@@ -15,7 +15,6 @@
 }
 
 .news__tag:hover {
-    cursor: pointer;
     background: #000000;
     padding: 0.5rem;
 }
@@ -94,7 +93,6 @@
 }
 
 .news__tag-articles-img:hover {
-    cursor: pointer;
     background: #f70f68;
 }
 
@@ -237,7 +235,6 @@
 }
 
 .news__tag-sport-article:hover {
-    cursor: pointer;
     background: #f70f68;
 }
 
