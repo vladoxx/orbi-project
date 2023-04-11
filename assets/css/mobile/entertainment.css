@@ -78,8 +78,15 @@
     cursor: pointer;
 }
 
+.entertainment__button-submit-form:hover {
+    transition: 0.7s;
+    color: #f70f68;
+    background: #ffffff;
+    border: 2px solid #f70f68;
+}
+
 .entertainment__articles-content-third {
-    margin-top: -9.7rem;
+    margin-top: 2.7rem;
     margin-bottom: 2rem;
 }
 
@@ -192,6 +199,7 @@
 
 .entertainment__sports-small-screen-slices {
     font-size: 1.2rem;
+    cursor: pointer;
 }
 
 .entertainment__sports-big-screen {
@@ -300,8 +308,7 @@ margin-bottom: 0.8rem;
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    position: relative;
-    top: -14.6rem;  
+    margin-top: -14.6rem;  
 }
 
 .entertainment__tag-article-img {
@@ -312,6 +319,10 @@ margin-bottom: 0.8rem;
     border-radius: 16px;
     background: rgba(32, 27, 27, 0.6);
     color: #ffffff;
+}
+
+.entertainment__tag-article-img:hover {
+    transition: 0.9s;
 }
 
 .entertainment__tag-article-img:hover {
@@ -335,6 +346,7 @@ margin-bottom: 0.8rem;
 
 .entertainment__btn-article-img:hover {
     background: #000000;
+    transition: 0.9s;
 }
 
 .entertainment__btn-img {
@@ -343,8 +355,7 @@ margin-bottom: 0.8rem;
 }
 
 .entertainment__tittles-article {
-    position: relative;
-    top: -11.7rem;
+    margin-top: 2.7rem;
     color: #ffffff;
     padding: 1rem;
 }
@@ -390,8 +401,23 @@ margin-bottom: 0.8rem;
     cursor: pointer;
 }
 
-@media (min-width: 360px) and (max-width: 425px) {}
-@media (min-width: 1024px) {}
+.entertainment__load-more-button:hover {
+    transition: 0.9s;
+    color: #ffffff;
+    background: #f70f68;
+}
+
+
+@media (min-width: 431px) {
+    .entertainment__articles-content-third {
+        margin-top: 4rem;
+    }
+}
+
+
+
+/* @media (min-width: 360px) and (max-width: 425px) {}
+@media (min-width: 1024px) {} */
 
 
 
